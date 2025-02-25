@@ -1,0 +1,147 @@
+
+body{
+    background-color: rgb(0, 255, 123);
+}
+
+
+footer {
+	margin-top: 300px;
+}
+
+
+textarea {
+    max-width: 380px;
+    max-height: 200px;
+    min-width: 380px;
+    min-height: 200px;
+}
+
+li a i, .footer-section * i, .footer-section * * i {
+    font-size: 16px; /* Ajuste selon ton besoin */
+}
+
+
+#navbarmain{
+	margin-bottom:0;
+}
+
+#fixed-header {
+    position: fixed; /* Fixe le header en haut */
+    top: 0; /* Aligné tout en haut */
+    left: 0;
+    width: 100%; /* Prend toute la largeur */
+    background: #007bff; /* Couleur de fond */
+    color: white; /* Texte en blanc */
+    padding-bottom: 15px 0; /* Espacement intérieur */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour effet 3D */
+    z-index: 1000; /* S'assure qu'il passe au-dessus du contenu */
+	/*margin-bottom: 70px;*/
+}
+
+/* Ajoute un espace en haut pour éviter que le contenu ne soit caché sous le header */
+#content {
+	/*padding-top: 70px;
+    margin-top: 120px;  Ajuste selon la hauteur du header */
+}
+
+footer i {
+    font-size: 1.5rem; /* Augmente la taille */
+    transition: color 0.3s;
+}
+
+footer a:hover i {
+    color: #f39c12; /* Change de couleur au survol */
+}
+
+#qr_image, #bar_image {
+	display: none;
+}
+
+.no_ul,#no_ul{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+footer {
+        background: #222;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+.footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+.footer-section {
+        margin: 10px;
+    }
+
+.footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+.footer-section ul li {
+        margin: 5px 0;
+    }
+
+.footer-section a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.footer-bottom {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+	
+.footer-section p, .footer-section ul li{
+	text-align: center;
+}
+
+
+
+
+
+
+.about-section {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+.ss-section {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section h2, .about-section h3 {
+    color: dark;
+}
+
+.about-section ul {
+    padding-left: 20px;
+}
+
+.about-section a {
+    color: dark;
+    text-decoration: none;
+    font-weight: bold;
+}
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+#content-ap{
+	display: none;
+	margin-top:-670px;
+}
